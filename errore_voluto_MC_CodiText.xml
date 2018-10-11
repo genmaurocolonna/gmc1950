@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE TEI SYSTEM "myTEI.dtd">
+<?xml-stylesheet type="text/xsl" href="stile.xsl"?>
+
+<?xml-stylesheet type="text/xsl" href="stile.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it">
+
+<!--       METADATA      -->
+	<teiHeader>
+		<fileDesc>
+  			<titleStmt>
+   				<title>Poema del R. Sac. e Dott. di teologia e delle legi D. Giuseppe Bonnaccolta attinente a tatti mammillari
+				contro il P. Benzi Gesuita  - 1740 Opera Postuma</title>
+   				<author>Don Gregorio Ruggeri (1710–1801)</author>
+   			<respStmt>
+    				<resp>Trascritto da:</resp>
+    				<name>Gennaro Mauro Colonna</name>
+   			</respStmt>
+   			<respStmt>
+    				<resp>Codificato ed edito da:</resp>
+    				<name>Gennaro Mauro Colonna</name>
+   			</respStmt>
+  			</titleStmt>
+  			<publicationStmt>
+  			<sourceDesc>
+   			<bibl>Don Gregorio Ruggeri, Manoscritto delle memorie (Caltanissetta, 1801)</bibl>
+  			</sourceDesc>
+   			<distributor>Università di Pisa</distributor>
+   				<address>
+    					<addrLine> Piazza Torricelli, 56126 Pisa</addrLine>
+   				</address>
+   				<idno type="OTA">2</idno>
+   			<availability>
+    				<p>Liberamente distribuile su basi non commerciali.</p>
+   			</availability>
+   			<date when="2018">2018</date>
+  			</publicationStmt>
+  			
+ 		</fileDesc>
+ 		<encodingDesc>
+  			<projectDesc>
+   			<p>Originalmente il testo del poemetto è stato trascritto a scopo di studio e preparazione di un saggio.La prima trascrizione è stata operata da G. Mauro Colonna nel 2006
+   	In questo progetto il materiale è utilizzatoi ai fini dell'esame di codifica dei testi
+   	del corso di Informatica Umanistica dell'Università di Pisa nell'A.A. 2017-2018.</p>
+   			<p>Codifica realizzata con lo standard TEI-lite P5.</p>
+   			<p>L'argomento trattato è la trascrizione da manoscritto di un poemetto morale in lingua siciliana risalente al 1740</p>
+  			</projectDesc>
+  		</encodingDesc>
+  		
+	</teiHeader>
+	
+	
+<!--       CONTENUTO   	-->
+
+	<text> 
+		<body>
+  	  	
+     <!--  	<div>
+                <figure>
+                    <graphic url="images/legenda.svg" />
+                    <figDesc>
+                    		<name type="legenda" key="colori"></name>
+                    </figDesc>
+                </figure>
+         </div>  -->
+		
+      	<!--<div>
+                <head rend="frontHead">Manoscritto - Strofe dalla 1 alla 2 - Foglio 29V Figura 45  </head>
+                <figure>
+                    <graphic url="images/f45-29_P12.jpg" />
+                    <figDesc>
+                    		<name type="poemetto" key="manoscritto"></name>
+                    </figDesc>
+                </figure> -->
+			
+		<!--	<graphic url="images/legenda.svg"/>
+			<surface>
+			<graphic url="images/f45-29_P12.jpg"/>
+			<graphic url="images/f47-31_P32.jpg"/>
+			</surface>
+			<graphic url="images/f48-32_P42.jpg"/>
+			<graphic url="images/f49-33_P52.jpg"/>
+			</facsimile>     
+		</div>
+ 
+       	<head>Ottava 1</head> -->
+      <pb facs="images/f45-29_P12.jpg"/> 
+  
+       		<lg type = "strofa" subtype="ottava" n="1">
+             	
+                  <l>Li <orgName>Gesuiti</orgName> specchiu d’onestati</l>
+						<l>chini di Zelu e di fina virtuti</l>
+						<l>su Dotti e Sant, e di tutta Buntati,</l>
+						<l>Nui ci duvemu tutti li tributi.</l>
+						<l>Di tutti quanti su Litterati</l>
+						<l>tutti di li suoi scoli sunisciuti</l>
+                  <l>Nnì la <orgName>Chiesa</orgName> di Diu su venerati</l>
+						<l>Prichì ndrizzanu tutti alla Saluti</l>
+           		
+       		</lg>
+      	
+       
+       
+       	<head>Ottava 2</head>
+        
+            <lg type = "strofa" subtype="ottava" n="2">
+             	
+						<l>Si vui poi cuntati li soi Dutturi</l>
+                  <l>In tutti lini’i viniti a stancari.</l>
+                  <l>Quanti di sacri libri esposituri</l>
+                  <l>Quanti dieologia gran Luminari!</l>
+                  <l>Di Littri umani poi quant’Oraturi</l>
+                  <l>in Prosa, in versu latini, e Vulgari?</l>
+                  <l>E sunnu, ch’è chini cosa di stupuri,</l>
+                  <l>Di li duttrini soi vivi esemplari</l>
+            </lg>
+         
+		
+        
+			<pb  facs="images/f46-30_P22.jpg" />       
+       <!--<head rend="frontHead">Manoscritto - Strofe dalla 3 alla 8 - Foglio 29R_30V Figura 46</head>
+                <figure>
+                    <graphic url="images/f46-30_P22.jpg" />
+                    <figDesc>
+                    		<name type="poemetto" key="manoscritto"></name>
+                    </figDesc>
+                </figure>
+       	
+       	<head>Ottava 3</head> -->
+      
+       		<lg type = "strofa" subtype="ottava" n="3">
+					
+          			<l>Di tanti Canonisti, chi ligiti</l>
+						<l>Chini di li centu parti, sunnu stati</l>
+						<l>Tutti suduri di li <orgName>Gesuiti.</orgName></l>
+						<l>Vi pregu  in curtisia nun mussiati,</l>
+						<l>Ch’iu voghiu in verità, chi mi criditi</l>
+                  <l>Oltra chi si vui autri lu  nigati</l>
+						<l>Cu chisti versi mei lu vidiriti</l>
+					
+       		</lg>
+       	
+       	
+    
+      
+       	<head>Ottava 4</head>
+      
+       		<lg type = "strofa" subtype="ottava" n="4">
+					 
+	  					<l>Su Dotti, e cui cu iddi ha mai contisu</l>
+                 	<l>sempri ha cadutu in  <foreign xml:lang="la">miserandu Occasu</foreign></l>
+						<l>La sua Duttrina sempri s’ha difisu</l>
+						<l>D’Omini Dotti, e di praegatu Nasu</l>
+						<l>Sulu m’è parsu di darici annisu</l>
+						<l>Chi nun resta lu Mundu Persuasu</l>
+                  <l>Si cu lu <name>Patri Benzi</name> s’hannu misu</l>
+						<l>A sustentari lu seguenti Casu.</l>
+		  		 	
+			 	</lg>
+		 	
+		 	
+       	<head>Ottava 5</head>
+       
+       		<lg type = "strofa" subtype="ottava" n="5">
+					 
+		 				<l>Un Naturali, e Semplici Dilettu</l>
+						<l>D’un toccu di Mammelli a posta fattu</l>
+						<l>A na Donzella da un Giuvini Schettu</l>
+						<l>Pò di culpa mortali essiri astrattu?</l>
+						<l>Dist’attu pintu, e misi a lu prospettu</l>
+						<l>Mancu si po guardari lu ritrattu</l>
+               	<l>Stu quesitu m’azzanna l’Intillettu</l>
+						<l>Comu si esenta di culpa un tal’attu?</l>
+			  	 	
+       		</lg>
+       	
+       
+     	 	
+     	
+       		<lg type = "strofa" subtype="ottava" n="6">
+			  		
+						<l rend="indent">Po’ stari inziemi Lu Surci, e lu Gattu,</l>
+						<l>Un’Affamatu avanti d’ un Suffrittu,</l>
+						<l>Un vasu d’acqua pò lassari intattu</l>
+						<l>Lisimacu di Siti Arsu e sconfittu?</l>
+						<l>E como dunque L’Omu a lu contattu</l>
+						<l>d’una Donzella, ch’è chini malidittu. </l>
+               	<l>passirà francu? E di 'ddi tocchi all’attu</l>
+					 	<l>Starà come Incapaci di pikittu ?</l>
+				 	
+       		</lg>		
+       			
+     
+       	<head>Ottava 7</head>
+ 
+       		<lg type = "strofa" subtype="ottava" n="7" >
+       		
+						 <l>Mi vi’ju ad essiri Asinu Custrittu,</l>
+						 <l>E darimi pn’ Babbu, o pn’ Picciottu</l>
+						 <l>Si vui vuliti ca mi staja zittu</l>
+						 <l>Senza disghiummarari stu fagottu.</l>
+						 <l>Tuccavi Minni, e poi nun c’è delittu?</l>
+						 <l>Minni chiù moddi di lu panicottu?</l>
+               	 <l>Pulviri, e focu s’insemmu la mittu</l>
+						 <l>Como vuliti chi nun fazza bottu?</l>
+					 
+       		</lg>
+		 	
+		 	
+       	<head>Ottava 8</head>
+     
+       		<lg type = "strofa" subtype="ottava" n="8">
+					 
+				  	   <l>E peju si'dd’è Monaca Claustrata</l>
+						<l>chj’è un isca chi v’adduma, e nun v’astuta</l>
+						<l>Pirchi la cosa quant’è più guardata</l>
+						<l>chiù s’appetisci, s’è chiù proibuta.</l>
+						<l>E chi la carni d’umbra è chiù prizzata</l>
+						<l>Non ci trasi ne dubiu, ne disputa</l>
+               	<l>E vuliti di st’isca addumata</l>
+						<l>La minna in manu, e la coscienza muta?</l>
+					
+       		</lg>
+		
+       		
+		</body>	
+	
+	<back>
+			
+ 	<listBibl>
+ 		<bibl>B I B L I O G R A F I A:  </bibl>
+ 		
+ 				<biblStruct>
+   					<title>Memorie del fu Decano Don Gregorio Ruggeri, Cassinese</title>
+   					<author>Don Gregorio Ruggeri</author>
+   					<imprint>
+    						<publisher>Monastero di Santa Flavia</publisher>
+    						<date>1801</date>
+    						<pubPlace>Caltanissetta, </pubPlace>
+   					</imprint>
+ 		 		</biblStruct>
+ 		
+ 			<bibl>2.-</bibl>
+ 				<biblStruct>
+  					
+   					<title>Storia di Sicilia dal 1556 al 1750</title>
+ 					<title>Per servire di continuazione a quella del Falzello volgarizzata da Giuseppe Bertini con note e aggiunte</title>
+   					<author>P. D. Vito Amico</author>
+   					<imprint>
+    						<publisher>Stamperia D'Antonio Muratori</publisher>
+    						<date>1836</date>
+    						<pubPlace>Palermo, </pubPlace>
+   					</imprint>
+   				</biblStruct>	
+ 	
+ 			<bibl>3.-</bibl>
+				<biblStruct>
+  							
+						<title>Storia Civile del Regno di Sicilia</title>
+					
+					
+ 						<title>Scritta per ordine di Sua Regia Maestà Ferdinando III Re delle due Sicilie dal suo regio istoriografo D. Gio: Evangelista Di Blasi e Gambacorta - Tomo Ottavo Libro XI Sezione Prima</title> 
+ 						<author>D. Gio Evangelista Di Blasi e Gambacorta, Abate Cassinese </author>
+ 						<imprint>
+ 							<publisher>Reale Stamperia</publisher>
+ 							<date>1817</date>
+ 							<pubPlace>Palermo, </pubPlace>
+ 						</imprint>
+ 					
+ 				</biblStruct>	
+ 		
+ 			<bibl>4.-</bibl>
+				<biblStruct>
+  					<analytic>
+  						<title>Dizionario Siciliano-Italiano</title>
+ 					</analytic>
+ 					<monogr>
+ 						<title>Compilato su quello del Pasqualino con aggiunte e correzioni per opera	del Sac. Rosario Rocca</title>
+ 						<author>Sac. Rosario Rocca</author>
+ 						<imprint>
+ 							<publisher>Per Pietro Giuntini</publisher>
+ 							<date when="1859">1859</date>
+ 							<pubPlace>Catania, </pubPlace>
+ 						</imprint>		
+ 					</monogr>
+ 				</biblStruct>
+ 		
+ 			<bibl>5.-<name> Giuseppe Pecorella</name></bibl>
+       		<biblStruct>
+  					<analytic>             
+             		<title>Dizionario Siciliano-Italiano</title>
+        			</analytic>
+ 					<monogr>
+ 						<title>integrato e aggiornato da Salvatore Ciancio</title>
+ 						<author>Giuseppe Pecorella</author>
+ 						<imprint>
+ 							<publisher>Edizioni Mediterranee</publisher>
+ 							<date when="185">1985</date>
+ 							<pubPlace>Roma, </pubPlace>
+ 						</imprint>
+ 					</monogr>
+ 		 		</biblStruct>
+ 	       								
+ 			<bibl>6.-<name> AA.VV. </name> in Rassegna di storia, lettere, arte e società</bibl>	
+ 		 		<biblStruct>
+  					<analytic>             
+             		<title>ARCHIVIO NISSENO</title>
+         		</analytic>	
+         		<monogr>
+         			<title>Associazione Officina del libro Luciano Scarabelli - Caltanissetta </title>
+ 						<author>AA.VV. in Rassegna di storia, lettere, arte e società </author>
+ 						<imprint>
+ 							<publisher>Paruzzo Printer editore - Caltanissetta</publisher>
+ 							<date when="2009">Gennaio-Giugno 2009</date>
+ 							<pubPlace>Caltanissetta, </pubPlace>
+ 						</imprint>
+ 					</monogr>
+ 		 		</biblStruct>
+ 		 
+ 			<bibl>7.- AA. VV. a cura di <name>Daniela Vullo</name></bibl>
+       		<biblStruct>
+  					<analytic>             
+             		<title>Chiesa di S.Flavia ed annesso ex convento dei Benedettini</title>
+         		</analytic>	
+         		<monogr>
+ 						<title>Progetto Scuola Città - Regione Siciliana -Edizioni Lussografica</title>
+ 						<author>AA. VV. a cura di Daniela Vullo </author>
+ 						<imprint>	
+ 							<publisher>Edizioni Lussografica - Caltanissetta</publisher>
+ 							<date when="2009">Gennaio-Giugno 2009</date>
+ 							<pubPlace>Caltanissetta, </pubPlace>
+ 						</imprint>	 
+ 					</monogr>
+ 		 		</biblStruct>
+ 	
+ 			<bibl>8.-<name>Elena Pierazzo</name></bibl>
+ 				<biblStruct>
+  					<analytic> 
+ 						<title>La codifica dei testi</title>
+ 					</analytic>
+ 					<monogr>
+ 						<title>Un'introduzione </title>
+ 						<author>Elena Pierazzo </author>
+ 					<imprint>
+ 						<publisher>Carocci - Roma</publisher>
+ 						<date when="2005">2005</date>
+ 						<pubPlace>Roma</pubPlace>
+ 					</imprint>	 
+ 		 		</monogr>
+ 		 		</biblStruct>
+ 	
+ 	
+		</listBibl>
+ 
+ 
+ 
+	</back>
+
+</text>
+
+</TEI>

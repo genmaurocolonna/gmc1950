@@ -1,0 +1,21 @@
+Buongiorno Professore,
+le allego 4 file dell'esercizio che ho fatto con XMLLINT.
+
+Il primo file (MC_CodiText.xml) è il file che avevo preparato per l'esame di codifica;
+Il secondo file è il risultato della validazione fatta con XMLLINT (2018ValidatoXmllint);
+Il terzo file (errore_voluto_MC_CodiText.xml) è lo stesso file del primo MA con l'inserimento di un errore di nidificazione appositameente inserito: in pratica non ho rispettato le regole TEI  nell'inserimento in ordine degli elementi) innestando 
+<sourceDesc>
+               <bibl>Don Gregorio Ruggeri, Manoscritto delle memorie (Caltanissetta, 1801)</bibl>
+              </sourceDesc>
+all'interno dell'elemento <publicationStmt> (al quale non appartiene) anziché porlo al suo posto, ovvero, in posizione di sibling di <publicationStmt>
+Il quarto file è la validazione dell'XML con l'errore che lo rende NON ben formato..
+
+Mi sono chiesto che tipo di lavoro faccia XMLLINT e la risposta che mi sono dato
+che XMLLINT è soltanto un VALIDATORE SINTATTICO. Possibile mai?
+Troppo poco per un vero e proprio parser!
+Allora sono andato a curiosare in https://linux.die.net/man/1/xmllint per capire di non aver capito e che una lezione su XMLLINT non guasterebbe (...per quanto io sappia che non sarà possibile visti i tempi del corso).
+
+Grato dei suoi suggerimenti
+gmc1950
+
+P.S.:  la firma che ho apposto (gmc1950) sta per gennaro mauro colonna e l'ho usata per fornirle il nome della mia repository su github: gmc1950. Proverò a inserire questo stesso documento in github
